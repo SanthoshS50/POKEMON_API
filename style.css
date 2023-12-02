@@ -1,0 +1,229 @@
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./assets/20996.jpg");
+}
+
+#header-container {
+  margin: 0px;
+  background-color: transparent;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#poke-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#header-text {
+  margin: 0 auto;
+}
+
+#create-pokemon {
+  margin-top: 200px;
+  margin-left: 0px;
+  font-size: 22px;
+  height: 90px;
+  width: 300px;
+  border-radius: 10px;
+  border: 5px solid #281dec;
+  color: black;
+  background-image: linear-gradient(37deg, rgb(32, 218, 233), rgb(40, 21, 236));
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.img {
+  width: 180px;
+  height: 70px;
+  margin-left: 20px;
+  padding-top: 0px;
+}
+h4 {
+  padding-left: 20px;
+  font-variant: initial;
+  color: black;
+  padding-bottom: 5px;
+  background-image: radial-gradient(
+      circle at 58% 94%,
+      rgba(0, 0, 0, 0.02) 0%,
+      rgba(0, 0, 0, 0.02) 2%,
+      transparent 2%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 82% 61%,
+      rgba(0, 0, 0, 0.02) 0%,
+      rgba(0, 0, 0, 0.02) 2%,
+      transparent 2%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 54% 96%,
+      rgba(0, 0, 0, 0.03) 0%,
+      rgba(0, 0, 0, 0.03) 2%,
+      transparent 2%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 45% 81%,
+      rgba(0, 0, 0, 0.01) 0%,
+      rgba(0, 0, 0, 0.01) 8%,
+      transparent 8%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 72% 83%,
+      rgba(0, 0, 0, 0.03) 0%,
+      rgba(0, 0, 0, 0.03) 8%,
+      transparent 8%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 11% 48%,
+      rgba(0, 0, 0, 0.01) 0%,
+      rgba(0, 0, 0, 0.01) 8%,
+      transparent 8%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 75% 28%,
+      rgba(0, 0, 0, 0.03) 0%,
+      rgba(0, 0, 0, 0.03) 8%,
+      transparent 8%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 54% 9%,
+      rgba(0, 0, 0, 0.02) 0%,
+      rgba(0, 0, 0, 0.02) 8%,
+      transparent 8%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 12% 95%,
+      rgba(0, 0, 0, 0.02) 0%,
+      rgba(0, 0, 0, 0.02) 5%,
+      transparent 5%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 95% 40%,
+      rgba(0, 0, 0, 0.02) 0%,
+      rgba(0, 0, 0, 0.02) 5%,
+      transparent 5%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 83% 86%,
+      rgba(0, 0, 0, 0.03) 0%,
+      rgba(0, 0, 0, 0.03) 5%,
+      transparent 5%,
+      transparent 100%
+    ),
+    linear-gradient(0deg, rgb(83, 178, 238), rgb(59, 188, 244));
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#id {
+  padding-bottom: 10px;
+}
+#s {
+  margin-left: 440px;
+  height: 40px;
+  margin-top: 10px;
+  width: 230px;
+  border-radius: 7px;
+}
+#s:focus {
+  outline: none;
+}
+.search {
+  margin-top: 20px;
+  padding-left: 7px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-group {
+  margin-left: 50px;
+}
+ul {
+  margin-left: 0px;
+  background-image: radial-gradient(
+      circle at 32% 74%,
+      rgba(0, 0, 0, 0.03) 0%,
+      rgba(0, 0, 0, 0.03) 8%,
+      transparent 8%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 98% 36%,
+      rgba(0, 0, 0, 0.03) 0%,
+      rgba(0, 0, 0, 0.03) 8%,
+      transparent 8%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 15% 96%,
+      rgba(0, 0, 0, 0.03) 0%,
+      rgba(0, 0, 0, 0.03) 8%,
+      transparent 8%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 55% 63%,
+      rgba(0, 0, 0, 0.01) 0%,
+      rgba(0, 0, 0, 0.01) 8%,
+      transparent 8%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 29% 45%,
+      rgba(0, 0, 0, 0.01) 0%,
+      rgba(0, 0, 0, 0.01) 8%,
+      transparent 8%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 42% 90%,
+      rgba(0, 0, 0, 0.02) 0%,
+      rgba(0, 0, 0, 0.02) 5%,
+      transparent 5%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 53% 74%,
+      rgba(0, 0, 0, 0.03) 0%,
+      rgba(0, 0, 0, 0.03) 5%,
+      transparent 5%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 35% 44%,
+      rgba(0, 0, 0, 0.01) 0%,
+      rgba(0, 0, 0, 0.01) 5%,
+      transparent 5%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 8% 48%,
+      rgba(0, 0, 0, 0.01) 0%,
+      rgba(0, 0, 0, 0.01) 5%,
+      transparent 5%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 73% 34%,
+      rgba(0, 0, 0, 0.02) 0%,
+      rgba(0, 0, 0, 0.02) 5%,
+      transparent 5%,
+      transparent 100%
+    ),
+    linear-gradient(135deg, rgb(4, 241, 42), rgb(53, 221, 78));
+  list-style-type: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
